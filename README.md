@@ -20,8 +20,8 @@ The Real-Time Chat Application is a dynamic platform developed using Socket.IO a
   - MongoDB: A NoSQL database used for storing user data and messages.
   - Socket.IO: A JavaScript library for real-time web applications, facilitating bidirectional communication between web clients and servers.
 - **Deployment:**
-  - GitHub: Utilized for version control and collaborative development of the project. [GitHub Repository]([[https://github.com/yourusername/your-repository][(https://github.com/sagarparise/chatApp-03)])
-  - Render: Used for hosting and deployment of the application, providing scalable infrastructure and easy setup. [Deployed Application]([[https://yourapp.render.com](https://chatapp-03-yt.onrender.com/)])
+  - GitHub: Utilized for version control and collaborative development of the project. [GitHub Repository](https://github.com/sagarparise/chatApp-03)
+  - Render: Used for hosting and deployment of the application, providing scalable infrastructure and easy setup. [Deployed Application](https://chatapp-03-yt.onrender.com/)
 
 ## Project Structure
 - **Client:** Contains the front-end components built with React.js and Daisy UI.
