@@ -9,7 +9,7 @@ const { userRouter } = require('./routes/userRoute');
 const cors = require('cors');
 const {app, server} = require('./sockets/socket')
 const path = require('path')  
-const __dirname = path.resolve();
+//const __dirname = path.resolve();
 
 dotenv.config();
 const PORT = process.env.PORT || 8000
