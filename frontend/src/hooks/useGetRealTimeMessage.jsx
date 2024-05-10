@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import {useSelector, useDispatch} from 'react-redux'
 import { setMessages } from '../Slices/messageSlice';
+import soundNotification from '../assets/notification.mp3'
 
 function useGetRealTimeMessage() {
   const dispatch = useDispatch();
@@ -12,6 +13,8 @@ function useGetRealTimeMessage() {
   useEffect(()=>{
     socket?.on('newMessage',(newMessage)=>{
       console.log(newMessage)
+      const sound = new Audio(soundNotification)
+      sound.play()
         dispatch( setMessages([...messages, newMessage]))
     })
   },[socket, setMessages, messages])
