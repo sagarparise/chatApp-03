@@ -43,7 +43,7 @@ The Real-Time Chat Application is a dynamic platform developed using Socket.IO a
 - https://github.com/sagarparise/chatApp-03
 
 ## Deploy Link :
-- https://yourapp.render.com](https://chatapp-03-yt.onrender.com/
+- https://chatapp-03-yt.onrender.com
 
 ## Conclusion
 The Real-Time Chat Application is a testament to my proficiency in full-stack development and real-time communication technologies. Its seamless user experience and robust features make it a valuable asset for enhancing collaboration and communication in various contexts.
