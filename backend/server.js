@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8000
 
 //middleware 
 const corsOptions = {
-  origin: ["http://localhost:5173","https://chatapp-03-yt.onrender.com/"],
+  origin: ["https://chatapp-03-yt.onrender.com/"],
   methods: ["GET", "POST"],
   credentials: true,
  // some legacy browsers (IE11, various SmartTVs) choke on 204
