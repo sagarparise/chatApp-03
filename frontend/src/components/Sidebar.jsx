@@ -21,7 +21,7 @@ function Sidebar() {
 
   const logoutHandle = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/auth/logout", {
+      const res = await fetch("https://chatapp-03-yt.onrender.com/api/auth/logout", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

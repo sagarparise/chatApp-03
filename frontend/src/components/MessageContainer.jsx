@@ -89,7 +89,7 @@ const SendInput = () => {
       const token = JSON.parse(localStorage.getItem("token"));
       console.log(token);
       const res = await fetch(
-        `http://localhost:5000/api/messages/send/${selectedUsers?._id}`,
+        `https://chatapp-03-yt.onrender.com/api/messages/send/${selectedUsers?._id}`,
         {
           method: "POST",
           headers: {

@@ -8,7 +8,7 @@ function useGetotherUsers() {
       try {
         const token = JSON.parse(localStorage.getItem('token'));
         
-        const res = await fetch('http://localhost:5000/api/users',{
+        const res = await fetch('https://chatapp-03-yt.onrender.com/api/users',{
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

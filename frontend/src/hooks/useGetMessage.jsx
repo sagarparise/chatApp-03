@@ -12,7 +12,7 @@ function useGetMessage() {
       try {
         const token = JSON.parse(localStorage.getItem('token'));
      
-        const res = await fetch(`http://localhost:5000/api/messages/${selectedUsers?._id}`,{
+        const res = await fetch(`https://chatapp-03-yt.onrender.com/api/messages/${selectedUsers?._id}`,{
           method: 'GET',
           headers: {
             'authorization': token,
