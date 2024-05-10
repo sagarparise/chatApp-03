@@ -13,18 +13,18 @@ The Real-Time Chat Application is a dynamic platform developed using Socket.IO a
 ## Technologies Used
 - **Front-End:**
   - React.js: A powerful JavaScript library for building user interfaces.
-  - HTML/CSS: Utilized for structuring and styling the application's front-end components.
+  - Daisy UI: A responsive UI component library for React, enhancing the design and usability of the application.
 - **Back-End:**
   - Node.js: A JavaScript runtime environment used for server-side development.
   - Express.js: A minimalist web framework for Node.js used to handle server-side logic.
   - MongoDB: A NoSQL database used for storing user data and messages.
   - Socket.IO: A JavaScript library for real-time web applications, facilitating bidirectional communication between web clients and servers.
 - **Deployment:**
-  - Docker: Utilized for containerization to ensure consistency and portability across different environments.
-  - AWS/Azure/GCP: Cloud platforms used for deployment and hosting of the application.
+  - GitHub: Utilized for version control and collaborative development of the project.
+  - Render: Used for hosting and deployment of the application, providing scalable infrastructure and easy setup.
 
 ## Project Structure
-- **Client:** Contains the front-end components built with React.js.
+- **Client:** Contains the front-end components built with React.js and Daisy UI.
 - **Server:** Houses the back-end logic implemented using Node.js and Express.js.
 - **Database:** Stores user information and message data using MongoDB.
 
