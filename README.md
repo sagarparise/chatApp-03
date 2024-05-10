@@ -20,8 +20,8 @@ The Real-Time Chat Application is a dynamic platform developed using Socket.IO a
   - MongoDB: A NoSQL database used for storing user data and messages.
   - Socket.IO: A JavaScript library for real-time web applications, facilitating bidirectional communication between web clients and servers.
 - **Deployment:**
-  - GitHub: Utilized for version control and collaborative development of the project. [GitHub Repository](https://github.com/yourusername/your-repository)
-  - Render: Used for hosting and deployment of the application, providing scalable infrastructure and easy setup. [Deployed Application](https://yourapp.render.com)
+  - GitHub: Utilized for version control and collaborative development of the project. [GitHub Repository]([https://github.com/yourusername/your-repository](https://github.com/sagarparise/chatApp-03))
+  - Render: Used for hosting and deployment of the application, providing scalable infrastructure and easy setup. [Deployed Application]([https://yourapp.render.com](https://chatapp-03-yt.onrender.com/))
 
 ## Project Structure
 - **Client:** Contains the front-end components built with React.js and Daisy UI.
@@ -39,6 +39,11 @@ The Real-Time Chat Application is a dynamic platform developed using Socket.IO a
 ![Screenshot (214)](https://github.com/sagarparise/chatApp-03/assets/141607123/5d380e5c-394c-42e4-ad0c-a1051bbbd74f)
 ![Screenshot (215)](https://github.com/sagarparise/chatApp-03/assets/141607123/e1b1ab3f-8d36-436a-9c59-f28339f111b2)
 
+## GitHub Link : 
+- https://github.com/sagarparise/chatApp-03
+
+## Deploy Link :
+- https://yourapp.render.com](https://chatapp-03-yt.onrender.com/
 
 ## Conclusion
 The Real-Time Chat Application is a testament to my proficiency in full-stack development and real-time communication technologies. Its seamless user experience and robust features make it a valuable asset for enhancing collaboration and communication in various contexts.
