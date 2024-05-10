@@ -1,15 +1,15 @@
 const express = require('express');
 
 const dotenv = require('dotenv');
+const path = require('path') 
 const router = require('./routes/authRoutes');
 const connectToMongoDb = require('./Db/connetion');
 const messageRouter = require('./routes/messageRoute');
 const cookieParser = require('cookie-parser');
 const { userRouter } = require('./routes/userRoute');
 const cors = require('cors');
-const {app, server} = require('./sockets/socket')
-const path = require('path')  
-//const __dirname = path.resolve();
+const {app, server} = require('./sockets/socket')  
+const dirname = path.resolve();
 
 dotenv.config();
 const PORT = process.env.PORT || 8000
@@ -32,10 +32,10 @@ app.use('/api/messages', messageRouter)
 app.use('/api/users', userRouter)
 app.options("*", cors()); 
 
-app.use(express.static(path.join(__dirname, "/frontend/dist")));
+app.use(express.static(path.join(dirname, "/frontend/dist")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
+  res.sendFile(path.join(dirname, "frontend", "dist", "index.html"));
 })
 
 server.listen(PORT, () => {
