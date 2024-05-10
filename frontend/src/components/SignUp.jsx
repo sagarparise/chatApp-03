@@ -39,6 +39,13 @@ function SignUp() {
       });
 
       navigate('/')
+        setInputVal({
+      fullName: "",
+      username: "",
+      email: "",
+      password: "",
+      gender: "",
+    })
 
   } catch (error) {
     console.log(error.message)
@@ -48,13 +55,7 @@ function SignUp() {
   }
    
   //  console.log(inputVal);
-    // setInputVal({
-    //   fullName: "",
-    //   username: "",
-    //   email: "",
-    //   password: "",
-    //   gender: "",
-    // })
+  
   };
 
   return (

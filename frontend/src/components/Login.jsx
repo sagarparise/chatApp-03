@@ -39,6 +39,11 @@ function Login() {
       localStorage.setItem('token', JSON.stringify(data.token));
       
       navigate("/")
+       setInputVal({
+      username: "",
+      email: "",
+      password: "",
+    });
       
     } catch (error) {
       console.log(error);
@@ -47,11 +52,7 @@ function Login() {
       });
     }
 
-    // setInputVal({
-    //   username: "",
-    //   email: "",
-    //   password: "",
-    // });
+   
   };
 
   return (
